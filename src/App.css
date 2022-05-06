@@ -1,0 +1,531 @@
+.App {
+  font-family: sans-serif;
+}
+.my-header {
+  margin: 0 100px;
+}
+
+.main {
+  display: flex;
+  justify-content: space-evenly;
+  height: 850px;
+}
+
+.left-main {
+  background-color: #fff;
+  width: 50%;
+}
+
+.right-main {
+  background-color: rgb(255, 208, 0);
+  width: 50%;
+}
+
+.MM {
+  display: flex;
+  flex-direction: column;
+}
+.imgs {
+  display: flex;
+  flex-direction: column;
+  margin-top: -850px;
+  z-index: 1;
+}
+.ofcbuild1 {
+  width: 380px;
+  height: 220px;
+  border-radius: 5%;
+  margin-top: 50px;
+  margin-left: 400px;
+  z-index: 2;
+}
+.ofcbuild2 {
+  width: 370px;
+  height: 185px;
+  border-radius: 5%;
+  margin-top: -50px;
+  margin-left: 580px;
+}
+.ofcbuild3 {
+  width: 250px;
+  height: 180px;
+  border-radius: 5%;
+  margin-top: -25px;
+  margin-left: 370px;
+}
+
+.ofc-content {
+  width: 350px;
+  height: 260px;
+  background-color: #fff;
+  margin-top: -80px;
+  margin-left: 540px;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: center;
+  border-radius: 5%;
+  padding: 30px;
+  line-height: 2rem;
+}
+
+.ofc-content h1 {
+  margin-top: 0px;
+  font-size: 18px;
+  font-weight: bolder;
+}
+
+.ofc-content .ofc-con-1 {
+  font-size: xx-large;
+  font-weight: bolder;
+  margin: 0;
+}
+
+.Arch {
+  height: 300px;
+
+  margin-top: 50px;
+}
+.Arch-hpg {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.Arch-heading {
+  margin-top: 70px;
+  font-size: 42px;
+  color: rgb(3, 7, 64);
+  font-weight: bolder;
+  font-family: cursive;
+}
+
+.Arch-pg {
+  margin-top: 30px;
+}
+
+.Arch-apur {
+  margin: 0 100px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.ar {
+  display: flex;
+  flex-direction: column;
+  height: 250px;
+  width: 250px;
+  background-color: #fff;
+  margin-top: 50px;
+}
+.ar p {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.ar > * {
+  margin: 10px 20px;
+}
+
+.aboutus {
+  background-color: rgb(20, 23, 72);
+  height: 850px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  align-content: space-evenly;
+  color: #fff;
+}
+.abtus-left > *,
+.abtus-right > * {
+  margin: 0;
+  padding: 0;
+}
+
+.abtus-left {
+  margin-top: 100px;
+  margin-left: 100px;
+  height: auto;
+  width: 400px;
+  padding: 50px;
+}
+
+.abtus-left h4 {
+  letter-spacing: 0.2rem;
+  font-weight: bolder;
+  margin-bottom: 15px;
+}
+
+.abtus-left h2 {
+  letter-spacing: 0.2rem;
+  font-size: 36px;
+  font-weight: bolder;
+}
+
+.abtus-left p {
+  margin-top: 30px;
+  letter-spacing: 0.1rem;
+  font-size: 15px;
+}
+
+.abtus-right {
+  margin-top: 100px;
+  margin-right: 100px;
+  height: auto;
+  width: 500px;
+  padding: 50px;
+}
+
+.abtus-right h4 {
+  letter-spacing: 0.1rem;
+  font-weight: bolder;
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+
+.abtus-right h5 {
+  letter-spacing: 0.2rem;
+  font-size: 18px;
+  font-weight: bolder;
+  margin-bottom: 15px;
+}
+
+.abtus-right p {
+  letter-spacing: 0.1rem;
+  font-size: 14px;
+  margin-bottom: 15px;
+}
+
+.best-main {
+  height: 700px;
+}
+
+.drawing {
+  width: 350px;
+  height: 300px;
+  border-radius: 5%;
+  margin-top: -80px;
+  margin-left: 370px;
+  position: absolute;
+  z-index: 4;
+}
+.color {
+  margin-top: 70px;
+  position: absolute;
+  right: 0;
+  height: 250px;
+  width: 60%;
+  display: flex;
+  background-color: rgb(255, 208, 0);
+}
+.best-sub {
+  margin-top: 150px;
+  position: absolute;
+  z-index: 5;
+  right: 160px;
+  padding: 30px;
+  border-radius: 5%;
+  background-color: #fff;
+  height: 400px;
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+}
+
+.best-sub h2 {
+  font-size: 36px;
+}
+.best-sub p {
+  margin-top: -10px;
+  font-size: 17px;
+}
+
+.AboutComp {
+  display: flex;
+  height: 500px;
+}
+
+.AboutComp-left {
+  background-color: rgb(20, 23, 72);
+  width: 50%;
+}
+.AboutComp-right {
+  background-color: rgb(255, 208, 0);
+  width: 50%;
+}
+
+.apartment {
+  width: 350px;
+  height: 350px;
+  border-radius: 5%;
+  margin-top: 80px;
+  margin-left: 450px;
+  position: absolute;
+}
+.abtcmp-R {
+  margin-top: 80px;
+  margin-left: 150px;
+  margin-right: 150px;
+}
+
+.abtcmp-R h3 {
+  font-size: 36px;
+}
+.abtcmp-R p {
+  margin-top: -20px;
+  margin-bottom: 30px;
+  font-size: 18px;
+  line-height: 1.8rem;
+  text-align: justify;
+}
+
+.embedded {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.em-top {
+  background-color: #fff;
+  height: 400px;
+}
+.em-bottom {
+  background-color: rgb(255, 208, 0);
+  height: 300px;
+}
+
+.labuild {
+  position: absolute;
+  margin-top: 200px;
+  margin-left: 100px;
+  height: 250px;
+  width: 250px;
+}
+.ygirl {
+  position: absolute;
+  height: 250px;
+  width: 250px;
+  border-radius: 50%;
+  border: 15px solid #fff;
+  margin-top: 300px;
+  margin-left: 200px;
+  z-index: 1;
+}
+
+.crparcopn {
+  position: absolute;
+  height: 400px;
+  width: 800px;
+  margin-top: 50px;
+  margin-left: 450px;
+}
+
+.emarch {
+  background-color: #fff;
+  width: 30%;
+  height: 450px;
+  padding: 20px;
+  position: absolute;
+  margin-top: 350px;
+  margin-left: 550px;
+  line-height: 2rem;
+}
+
+.emarch h2 {
+  font-weight: bold;
+  font-size: 36px;
+}
+
+.success {
+  /* background-color: aquamarine; */
+  height: 800px;
+}
+.y-beam {
+  height: 200px;
+  width: 500px;
+  background-color: rgb(255, 208, 0);
+  position: absolute;
+  margin-top: 250px;
+}
+
+.smilimg {
+  position: absolute;
+  height: 400px;
+  width: 350px;
+  border-radius: 5%;
+  margin-top: 180px;
+  margin-left: 280px;
+}
+
+.y-beam-info {
+  position: absolute;
+  height: 400px;
+  width: 400px;
+  margin-top: 200px;
+  margin-left: 650px;
+}
+
+.y-beam-info h2 {
+  font-size: 40px;
+  font-weight: bolder;
+}
+.quote {
+  position: absolute;
+  background-color: rgb(20, 23, 72);
+  color: #fff;
+  height: 350px;
+  width: 300px;
+  border-radius: 5%;
+  margin-top: 400px;
+  margin-left: 120px;
+}
+.quote h1 {
+  font-size: 100px;
+}
+
+.quotation {
+  padding: 0 20px;
+  font-size: 21px;
+  line-height: 1.5;
+  letter-spacing: 0.12rem;
+}
+.author {
+  text-align: end;
+  font-size: 20px;
+  position: absolute;
+  margin-top: 50px;
+  margin-left: 100px;
+}
+
+.service {
+  display: flex;
+  height: 1200px;
+}
+.ser-left {
+  background-color: rgb(255, 208, 0);
+  width: 50%;
+}
+
+.ser-right {
+  width: 50%;
+}
+
+.crparcopn1 {
+  position: absolute;
+  height: 400px;
+  width: 600px;
+  margin-top: 50px;
+  margin-left: 540px;
+  border-radius: 5%;
+}
+.conference {
+  position: absolute;
+  height: 300px;
+  width: 400px;
+  margin-top: 320px;
+  margin-left: 350px;
+  border-radius: 5%;
+}
+
+.labuild1 {
+  position: absolute;
+  margin-top: 530px;
+  margin-left: 890px;
+  height: 200px;
+  width: 250px;
+  border-radius: 5%;
+}
+.wwd {
+  position: absolute;
+  background-color: #fff;
+  padding: 0 30px;
+  height: 450px;
+  width: 400px;
+  border-radius: 5%;
+  margin-top: 700px;
+  margin-left: 350px;
+}
+
+.wwd h3 {
+  font-size: 20px;
+  font-weight: bold;
+}
+.wwd h2 {
+  font-size: 36px;
+}
+.signup {
+  height: 1000px;
+}
+
+.consplan {
+  width: 100%;
+  height: 600px;
+}
+
+.MuiOutlinedInput-root {
+  border-radius: 100px !important;
+  height: 50px;
+}
+.Ex-offrs {
+  background-color: #fff;
+  height: 600px;
+  width: 800px;
+  border-radius: 5%;
+  position: absolute;
+  margin-top: -250px;
+  text-align: center;
+  margin-left: 250px;
+  margin-right: 300px;
+}
+.Ex-offrs h2 {
+  margin-top: 50px;
+  font-weight: bolder;
+  font-size: 28px;
+}
+.Ex-offrs p {
+  line-height: 2rem;
+  margin-left: 200px;
+  margin-right: 200px;
+}
+.message {
+  width: 600px;
+  height: 200px;
+}
+.outline {
+  margin-right: 30px;
+}
+.MuiInputLabel-root {
+  font-size: 0.8rem !important;
+  color: #666 !important;
+}
+
+.fields {
+  display: flex;
+  margin-left: 75px;
+}
+.fields > .outline {
+  margin-right: 20px;
+}
+.outlined-number {
+  margin-right: 0;
+}
+
+.message-field {
+  margin-bottom: 20px;
+}
+
+.footer {
+  margin-top: auto;
+  width: 100%;
+  height: 120px;
+  background-color: #444;
+  color: #fff;
+  font-size: 20px;
+}
+.footer-content p {
+  position: absolute;
+  text-align: center;
+  margin-top: 40px;
+  margin-left: 370px;
+  margin-right: 400px;
+}
